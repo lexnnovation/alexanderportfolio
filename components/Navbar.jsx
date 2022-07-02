@@ -34,12 +34,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 ml-2'>
         <div className='cursor-pointer flex justify-between max-w-[200px] lg:max-w-[250px]'>
           <Link href='/'>
-            <Image
-              src='/../public/assets/navLogo1.png'
-              alt='/'
-              width='235'
-              height='53'
-            />
+            <Image src='/assets/navLogo1.png' alt='/' width='235' height='53' />
           </Link>
         </div>
         <div>
@@ -81,7 +76,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between '>
               <Image
-                src='/../public/assets/navLogo1.png'
+                src='/assets/navLogo1.png'
                 width='200'
                 height='45'
                 alt='/'
